@@ -1,0 +1,653 @@
+{
+    "_readme": [
+        "This file records all known Babel Extensions approved by NOJ Official Babel Marketspace",
+        "Read more about it at https:\/\/acm.njupt.edu.cn\/babel",
+        "This file is updated every day"
+    ],
+    "content-hash": "758f9791e789b1c002867768ef833653",
+    "packages": [
+        {
+            "name": "NOJ",
+            "code": "noj",
+            "type": "online-judge",
+            "description": "Official Online Judge Interface for NOJ",
+            "license": "MIT",
+            "repository": "https:\/\/github.com\/ZsgsDesign\/NOJ",
+            "downloadURL": null,
+            "version": "0.5.0",
+            "website": "https:\/\/acm.njupt.edu.cn\/",
+            "require": {
+                "NOJ": "0.5.0"
+            },
+            "official": true,
+            "icon": "resources\/noj.png",
+            "maintainers": [
+                "ZsgsDesign",
+                "DavidDiao",
+                "pikanglong",
+                "Brethland",
+                "X3ZvaWQ",
+                "goufaan",
+                "ChenKS12138",
+                "Rp12138",
+                "scrutinizer-auto-fixer",
+                "SinonJZH",
+                "crazyasme",
+                "fossabot",
+                "YoujieZhang"
+            ]
+        },
+        {
+            "name": "POJ",
+            "code": "poj",
+            "type": "virtual-judge",
+            "description": "POJ Interface for NOJ",
+            "license": "MIT",
+            "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extensions_POJ",
+            "downloadURL": [
+                {
+                    "version": "0.1.4",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extensions_POJ\/archive\/0.1.4.zip"
+                },
+                {
+                    "version": "0.1.3",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extensions_POJ\/archive\/0.1.3.zip"
+                },
+                {
+                    "version": "0.1.2",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_POJ\/archive\/0.1.2.zip"
+                },
+                {
+                    "version": "0.1.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_POJ\/archive\/0.1.0.zip"
+                }
+            ],
+            "version": "0.1.4",
+            "website": "http:\/\/poj.org\/",
+            "require": {
+                "NOJ": "^0.3.0"
+            },
+            "official": true,
+            "icon": "resources\/poj.png",
+            "maintainers": [
+                "ZsgsDesign"
+            ]
+        },
+        {
+            "name": "HDU",
+            "code": "hdu",
+            "type": "virtual-judge",
+            "description": "HDU Interface for NOJ",
+            "license": "MIT",
+            "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU",
+            "downloadURL": [
+                {
+                    "version": "0.4.2",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.4.2.zip"
+                },
+                {
+                    "version": "0.4.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.4.1.zip"
+                },
+                {
+                    "version": "0.4.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.4.0.zip"
+                },
+                {
+                    "version": "0.3.20",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.20.zip"
+                },
+                {
+                    "version": "0.3.19",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.19.zip"
+                },
+                {
+                    "version": "0.3.18",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.18.zip"
+                },
+                {
+                    "version": "0.3.17",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.17.zip"
+                },
+                {
+                    "version": "0.3.16",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.16.zip"
+                },
+                {
+                    "version": "0.3.14",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.14.zip"
+                },
+                {
+                    "version": "0.3.13",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.13.zip"
+                },
+                {
+                    "version": "0.3.12",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.12.zip"
+                },
+                {
+                    "version": "0.3.11",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.11.zip"
+                },
+                {
+                    "version": "0.3.10",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.10.zip"
+                },
+                {
+                    "version": "0.3.9",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.9.zip"
+                },
+                {
+                    "version": "0.3.8",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.8.zip"
+                },
+                {
+                    "version": "0.3.7",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.7.zip"
+                },
+                {
+                    "version": "0.3.6",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.6.zip"
+                },
+                {
+                    "version": "0.3.5",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.5.zip"
+                },
+                {
+                    "version": "0.3.4",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.4.zip"
+                },
+                {
+                    "version": "0.3.3",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.3.zip"
+                },
+                {
+                    "version": "0.3.2",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.2.zip"
+                },
+                {
+                    "version": "0.3.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.1.zip"
+                },
+                {
+                    "version": "0.3.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.3.0.zip"
+                },
+                {
+                    "version": "0.2.3",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.2.3.zip"
+                },
+                {
+                    "version": "0.2.2",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.2.2.zip"
+                },
+                {
+                    "version": "0.2.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.2.1.zip"
+                },
+                {
+                    "version": "0.2.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.2.0.zip"
+                },
+                {
+                    "version": "0.1.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.1.1.zip"
+                },
+                {
+                    "version": "0.1.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_HDU\/archive\/0.1.0.zip"
+                }
+            ],
+            "version": "0.4.2",
+            "website": "https:\/\/acm.hdu.edu.cn\/",
+            "require": {
+                "NOJ": "^0.3.0"
+            },
+            "official": true,
+            "icon": "resources\/hdu.png",
+            "maintainers": [
+                "ZsgsDesign","Brethland"
+            ]
+        },
+        {
+            "name": "UVa",
+            "code": "uva",
+            "type": "virtual-judge",
+            "description": "UVa interface for NOJ",
+            "license": "MIT",
+            "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVa",
+            "downloadURL": [
+                {
+                    "version": "0.2.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVa\/archive\/0.2.0.zip"
+                },                
+                {
+                    "version": "0.1.4",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVa\/archive\/0.1.4.zip"
+                },
+                {
+                    "version": "0.1.3",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVa\/archive\/0.1.3.zip"
+                },
+                {
+                    "version": "0.1.2",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVa\/archive\/0.1.2.zip"
+                },
+                {
+                    "version": "0.1.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVa\/archive\/0.1.1.zip"
+                },
+                {
+                    "version": "0.1.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVa\/archive\/0.1.0.zip"
+                }
+            ],
+            "version": "0.2.0",
+            "website": "https:\/\/onlinejudge.org\/",
+            "require": {
+                "NOJ": "^0.3.2"
+            },
+            "official": true,
+            "icon": "resources\/uva.png",
+            "maintainers": [
+                "DavidDiao",
+                "ZsgsDesign"
+            ]
+        },
+        {
+            "name": "UVaLive",
+            "code": "uvalive",
+            "type": "virtual-judge",
+            "description": "UVaLive interface for NOJ",
+            "license": "MIT",
+            "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive",
+            "downloadURL": [
+                {
+                    "version": "0.2.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive\/archive\/0.2.0.zip"
+                },
+                {
+                    "version": "0.1.4",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive\/archive\/0.1.4.zip"
+                },
+                {
+                    "version": "0.1.3",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive\/archive\/0.1.3.zip"
+                },
+                {
+                    "version": "0.1.2",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive\/archive\/0.1.2.zip"
+                },
+                {
+                    "version": "0.1.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive\/archive\/0.1.1.zip"
+                },
+                {
+                    "version": "0.1.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive\/archive\/0.1.0.zip"
+                }
+            ],
+            "version": "0.2.0",
+            "website": "https:\/\/icpcarchive.ecs.baylor.edu\/",
+            "require": {
+                "NOJ": "^0.3.2"
+            },
+            "official": true,
+            "icon": "resources\/uvalive.png",
+            "maintainers": [
+                "ZsgsDesign",
+                "DavidDiao"
+            ]
+        },
+        {
+            "name": "Vijos",
+            "code": "vijos",
+            "type": "virtual-judge",
+            "description": "Vijos interface for NOJ",
+            "license": "MIT",
+            "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos",
+            "downloadURL": [
+                {
+                    "version": "0.1.7",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos\/archive\/0.1.7.zip"
+                },{
+                    "version": "0.1.5",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos\/archive\/0.1.5.zip"
+                },{
+                    "version": "0.1.4",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos\/archive\/0.1.4.zip"
+                },
+                {
+                    "version": "0.1.3",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos\/archive\/0.1.3.zip"
+                },
+                {
+                    "version": "0.1.2",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos\/archive\/0.1.2.zip"
+                },
+                {
+                    "version": "0.1.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos\/archive\/0.1.1.zip"
+                },
+                {
+                    "version": "0.1.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos\/archive\/0.1.0.zip"
+                }
+            ],
+            "version": "0.1.7",
+            "website": "https:\/\/vijos.org\/",
+            "require": {
+                "NOJ": "^0.3.0"
+            },
+            "official": true,
+            "icon": "resources\/vijos.png",
+            "maintainers": [
+                "DavidDiao"
+            ]
+        },
+        {
+            "name": "Codeforces",
+            "code": "codeforces",
+            "type": "virtual-judge",
+            "description": "Codeforces interface for NOJ",
+            "license": "MIT",
+            "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces",
+            "downloadURL": [
+                {
+                    "version": "0.1.11",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.11.zip"
+                },
+                {
+                    "version": "0.1.10",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.10.zip"
+                },
+                {
+                    "version": "0.1.9",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.9.zip"
+                },
+                {
+                    "version": "0.1.8",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.8.zip"
+                },
+                {
+                    "version": "0.1.7",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.7.zip"
+                },
+                {
+                    "version": "0.1.6",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.6.zip"
+                },
+                {
+                    "version": "0.1.5",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.5.zip"
+                },
+                {
+                    "version": "0.1.4",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.4.zip"
+                },
+                {
+                    "version": "0.1.3",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.3.zip"
+                },
+                {
+                    "version": "0.1.2",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.2.zip"
+                },
+                {
+                    "version": "0.1.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.1.zip"
+                },
+                {
+                    "version": "0.1.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.0.zip"
+                }
+            ],
+            "version": "0.1.11",
+            "website": "https:\/\/codeforces.com\/",
+            "require": {
+                "NOJ": "^0.3.0"
+            },
+            "official": true,
+            "icon": "resources\/codeforces.png",
+            "maintainers": [
+                "DavidDiao"
+            ]
+        },
+        {
+            "name": "ZOJ",
+            "code": "zoj",
+            "type": "virtual-judge",
+            "description": "ZOJ Interface for NOJ",
+            "license": "MIT",
+            "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ZOJ",
+            "downloadURL": [
+                {
+                    "version": "0.1.9",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ZOJ\/archive\/0.1.9.zip"
+                },
+                {
+                    "version": "0.1.8",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ZOJ\/archive\/0.1.8.zip"
+                },
+                {
+                    "version": "0.1.7",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ZOJ\/archive\/0.1.7.zip"
+                },
+                {
+                    "version": "0.1.6",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ZOJ\/archive\/0.1.6.zip"
+                },
+                {
+                    "version": "0.1.5",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ZOJ\/archive\/0.1.5.zip"
+                },
+                {
+                    "version": "0.1.4",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ZOJ\/archive\/0.1.4.zip"
+                },
+                {
+                    "version": "0.1.3",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ZOJ\/archive\/0.1.3.zip"
+                },
+                {
+                    "version": "0.1.2",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ZOJ\/archive\/0.1.2.zip"
+                },
+                {
+                    "version": "0.1.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ZOJ\/archive\/0.1.1.zip"
+                },
+                {
+                    "version": "0.1.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ZOJ\/archive\/0.1.0.zip"
+                }
+            ],
+            "version": "0.1.9",
+            "website": "http:\/\/acm.zju.edu.cn\/",
+            "custom": {
+                "css": "resources\/custom.css"
+            },
+            "require": {
+                "NOJ": "^0.3.0"
+            },
+            "official": true,
+            "icon": "resources\/zoj.png",
+            "maintainers": [
+                "Brethland",
+                "ZsgsDesign"
+            ]
+        },
+        {
+            "name": "PTA",
+            "code": "pta",
+            "type": "virtual-judge",
+            "description": "PTA interface for NOJ",
+            "license": "MIT",
+            "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_PTA",
+            "downloadURL": [
+                {
+                    "version": "0.1.4",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_PTA\/archive\/0.1.4.zip"
+                },
+                {
+                    "version": "0.1.3",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_PTA\/archive\/0.1.3.zip"
+                },
+                {
+                    "version": "0.1.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_PTA\/archive\/0.1.1.zip"
+                },
+                {
+                    "version": "0.1.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_PTA\/archive\/0.1.0.zip"
+                }
+            ],
+            "version": "0.1.4",
+            "website": "https:\/\/pintia.cn\/",
+            "require": {
+                "NOJ": "^0.3.0"
+            },
+            "official": true,
+            "icon": "resources\/pta.png",
+            "maintainers": [
+                "DavidDiao"
+            ]
+        },
+        {
+            "name": "ContestHunter",
+            "code": "contesthunter",
+            "type": "virtual-judge",
+            "description": "ContestHunter interface for NOJ",
+            "license": "MIT",
+            "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ContestHunter",
+            "downloadURL": [
+                {
+                    "version": "0.1.2",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ContestHunter\/archive\/0.1.2.zip"
+                },
+                {
+                    "version": "0.1.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ContestHunter\/archive\/0.1.1.zip"
+                },
+                {
+                    "version": "0.1.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_ContestHunter\/archive\/0.1.0.zip"
+                }
+            ],
+            "version": "0.1.2",
+            "website": "http:\/\/contest-hunter.org:83\/",
+            "provider": {
+                "judger": "Judger",
+                "crawler": "Crawler",
+                "submitter": "Submitter",
+                "installer": "Installer"
+            },
+            "require": {
+                "NOJ": "^0.3.0"
+            },
+            "official": true,
+            "icon": "resources\/contesthunter.png",
+            "maintainers": [
+                "DavidDiao"
+            ]
+        },
+        {
+            "name": "AtCoder",
+            "code": "atcoder",
+            "type": "virtual-judge",
+            "description": "AtCoder interface for NOJ",
+            "license": "MIT",
+            "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_AtCoder",
+            "downloadURL": [
+                {
+                    "version": "0.1.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_AtCoder\/archive\/0.1.1.zip"
+                },
+                {
+                    "version": "0.1.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_AtCoder\/archive\/0.1.0.zip"
+                }
+            ],
+            "version": "0.1.1",
+            "website": "https:\/\/atcoder.jp\/",
+            "provider": {
+                "judger": "Judger",
+                "crawler": "Crawler",
+                "submitter": "Submitter",
+                "installer": "Installer"
+            },
+            "require": {
+                "NOJ": "0.3.1"
+            },
+            "official": true,
+            "icon": "resources\/atcoder.png",
+            "maintainers": [
+                "DavidDiao"
+            ]
+        },
+        {
+            "name": "BZOJ",
+            "code": "bzoj",
+            "type": "virtual-judge",
+            "description": "BZOJ interface for NOJ",
+            "license": "MIT",
+            "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_BZOJ",
+            "downloadURL": [
+                {
+                    "version": "0.1.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_BZOJ\/archive\/0.1.1.zip"
+                },
+                {
+                    "version": "0.1.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_BZOJ\/archive\/0.1.0.zip"
+                }
+            ],
+            "version": "0.1.1",
+            "website": "https:\/\/www.lydsy.com\/",
+            "provider": {
+                "judger": "Judger",
+                "crawler": "Crawler",
+                "submitter": "Submitter",
+                "installer": "Installer"
+            },
+            "require": {
+                "NOJ": "0.3.2"
+            },
+            "official": true,
+            "icon": "resources\/bzoj.png",
+            "maintainers": [
+                "DavidDiao"
+            ]
+        },
+        {
+            "name": "NOIOPEN",
+            "code": "noiopen",
+            "type": "virtual-judge",
+            "description": "NOI Open Judge interface for NOJ",
+            "license": "MIT",
+            "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_NOIOPEN",
+            "downloadURL": [
+                {
+                    "version": "0.1.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_NOIOPEN\/archive\/0.1.0.zip"
+                }
+            ],
+            "version": "0.1.0",
+            "website": "http:\/\/noi.openjudge.cn\/",
+            "provider": {
+                "judger": "Judger",
+                "crawler": "Crawler",
+                "submitter": "Submitter",
+                "installer": "Installer"
+            },
+            "require": {
+                "NOJ": "^0.4.2"
+            },
+            "official": true,
+            "icon": "resources\/noiopen.png",
+            "maintainers": [
+                "ZsgsDesign"
+            ]
+        }
+    ]
+}
