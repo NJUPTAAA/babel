@@ -4,8 +4,8 @@
         "Read more about it at https:\/\/acm.njupt.edu.cn\/babel and https:\/\/njuptaaa.github.io\/babel",
         "This file is updated on a daily basis"
     ],
-    "updated-at": 1629114746,
-    "content-hash": "e3e9b3c05bac2f54b9aa4f868031ec1a",
+    "updated-at": 1629122810,
+    "content-hash": "c71d06e27db5634488f3514bd2fd7ea0",
     "packages": [
         {
             "name": "NOJ",
@@ -504,8 +504,8 @@
             "official": true,
             "icon": "resources\/uvalive.png",
             "maintainers": [
-                "ZsgsDesign",
-                "DavidDiao"
+                "DavidDiao",
+                "ZsgsDesign"
             ]
         },
         {
