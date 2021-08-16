@@ -162,4 +162,5 @@ function _getRemoteBabelConfig($repo, $version, $tries=5){
     if($ret===false){
         return _getRemoteBabelConfig($repo, $version, $tries-1);
     }
+    return $ret;
 }
