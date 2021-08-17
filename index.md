@@ -12,6 +12,10 @@ body {
 .markdown-body {
     text-align: center;
 }
+
+.markdown-body img {
+    width: 8rem;
+}
 </style>
 
 ![NOJ BABEL](favicon.png)
