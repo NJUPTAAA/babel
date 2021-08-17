@@ -1,3 +1,20 @@
+<style>
+h1:first-of-type,
+.footer {
+    display: none;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.markdown-body {
+    text-align: center;
+}
+</style>
+
+![NOJ BABEL](favicon.png)
 # NOJ BABEL Github Public Mirror 
 This is the Github Public Mirror for NOJ BABEL Extensions.
 
