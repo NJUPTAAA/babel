@@ -4,8 +4,8 @@
         "Read more about it at https:\/\/acm.njupt.edu.cn\/babel and https:\/\/njuptaaa.github.io\/babel",
         "This file is updated on a daily basis"
     ],
-    "updated-at": 1629190937,
-    "content-hash": "efbb42cba4c39d1711b1025215e0b0f1",
+    "updated-at": 1629192188,
+    "content-hash": "d821e7f560fdaf48831d92e97bc23716",
     "packages": [
         {
             "name": "NOJ",
@@ -46,6 +46,10 @@
             "license": "MIT",
             "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces",
             "downloadURL": [
+                {
+                    "version": "0.2.4",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.2.4.zip"
+                },
                 {
                     "version": "0.2.3",
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.2.3.zip"
@@ -111,7 +115,7 @@
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.0.zip"
                 }
             ],
-            "version": "0.2.3",
+            "version": "0.2.4",
             "website": "https:\/\/codeforces.com\/",
             "require": {
                 "NOJ": "^0.5.0"
