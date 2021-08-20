@@ -4,8 +4,8 @@
         "Read more about it at https:\/\/acm.njupt.edu.cn\/babel and https:\/\/njuptaaa.github.io\/babel",
         "This file is updated on a daily basis"
     ],
-    "updated-at": 1629276165,
-    "content-hash": "418f182c4957c153905d0ee0d51643e3",
+    "updated-at": 1629462716,
+    "content-hash": "6cb1364d9c28539080315619530e05d6",
     "packages": [
         {
             "name": "NOJ",
@@ -15,10 +15,10 @@
             "license": "MIT",
             "repository": "https:\/\/github.com\/ZsgsDesign\/NOJ",
             "downloadURL": null,
-            "version": "0.5.0",
+            "version": "0.5.1",
             "website": "https:\/\/acm.njupt.edu.cn\/",
             "require": {
-                "NOJ": "0.5.0"
+                "NOJ": "0.5.1"
             },
             "official": true,
             "icon": "resources\/noj.png",

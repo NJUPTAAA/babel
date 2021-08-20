@@ -25,10 +25,10 @@ $packages = [[
     "license" => "MIT",
     "repository" => "https://github.com/ZsgsDesign/NOJ",
     "downloadURL" => null,
-    "version" => "0.5.0",
+    "version" => "0.5.1",
     "website" => "https://acm.njupt.edu.cn/",
     "require" => [
-        "NOJ" => "0.5.0"
+        "NOJ" => "0.5.1"
     ],
     "official" => true,
     "icon" => "resources/noj.png",
