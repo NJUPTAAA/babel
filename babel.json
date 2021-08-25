@@ -4,8 +4,8 @@
         "Read more about it at https:\/\/acm.njupt.edu.cn\/babel and https:\/\/njuptaaa.github.io\/babel",
         "This file is updated on a daily basis"
     ],
-    "updated-at": 1629462716,
-    "content-hash": "6cb1364d9c28539080315619530e05d6",
+    "updated-at": 1629905245,
+    "content-hash": "29841c1ccd7f5eefa2c9b6e6fd748cda",
     "packages": [
         {
             "name": "NOJ",
@@ -614,6 +614,7 @@
             "official": true,
             "icon": "resources\/atcoder.png",
             "maintainers": [
+                "ZsgsDesign",
                 "DavidDiao"
             ]
         },
@@ -654,14 +655,18 @@
             "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_NOIOPEN",
             "downloadURL": [
                 {
+                    "version": "0.1.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_NOIOPEN\/archive\/0.1.1.zip"
+                },
+                {
                     "version": "0.1.0",
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_NOIOPEN\/archive\/0.1.0.zip"
                 }
             ],
-            "version": "0.1.0",
+            "version": "0.1.1",
             "website": "http:\/\/noi.openjudge.cn\/",
             "require": {
-                "NOJ": "^0.4.2"
+                "NOJ": "^0.5.0"
             },
             "official": true,
             "icon": "resources\/noiopen.png",
