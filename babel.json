@@ -4,8 +4,8 @@
         "Read more about it at https:\/\/acm.njupt.edu.cn\/babel and https:\/\/njuptaaa.github.io\/babel",
         "This file is updated on a daily basis"
     ],
-    "updated-at": 1635028693,
-    "content-hash": "383c45ead3c4b7dfc09446f5c170e963",
+    "updated-at": 1635029752,
+    "content-hash": "f03df8457cf5be4a5031529946ae5cf0",
     "packages": [
         {
             "name": "NOJ",
@@ -534,6 +534,10 @@
             "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive",
             "downloadURL": [
                 {
+                    "version": "0.2.2",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive\/archive\/0.2.2.zip"
+                },
+                {
                     "version": "0.2.1",
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive\/archive\/0.2.1.zip"
                 },
@@ -562,10 +566,10 @@
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive\/archive\/0.1.0.zip"
                 }
             ],
-            "version": "0.2.1",
+            "version": "0.2.2",
             "website": "https:\/\/icpcarchive.ecs.baylor.edu\/",
             "require": {
-                "NOJ": "^0.3.2"
+                "NOJ": "^0.17.2"
             },
             "official": true,
             "icon": "resources\/uvalive.png",
