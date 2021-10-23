@@ -15,7 +15,23 @@ $babelExtensions = [
     "NJUPTAAA/NOJ_Extension_AtCoder",
     "NJUPTAAA/NOJ_Extension_BZOJ",
     "NJUPTAAA/NOJ_Extension_NOIOPEN",
+    "NJUPTAAA/NOJ_Extension_Codeforces_Gym",
 ];
+
+$NOJRepo = "ZsgsDesign/NOJ";
+$versionInfos = json_decode(getGitHubTags("https://api.github.com/repos/$NOJRepo/tags"), true);
+$NOJMaintainers = [];
+echo "Processing: $NOJRepo" . PHP_EOL;
+if (isset($versionInfos["url"])) {
+    $versionInfos = json_decode(getGitHubTags($versionInfos["url"]), true);
+}
+
+$versionInfo = $versionInfos[0];
+$NOJLatestVersion = $versionInfo["name"];
+$contributorInfos = json_decode(getGitHubTags("https://api.github.com/repos/$NOJRepo/contributors"), true);
+foreach ($contributorInfos as $contributor) {
+    $NOJMaintainers[] = $contributor['login'];
+}
 
 $packages = [[
     "name" => "NOJ",
@@ -23,30 +39,16 @@ $packages = [[
     "type" => "online-judge",
     "description" => "Official Online Judge Interface for NOJ",
     "license" => "MIT",
-    "repository" => "https://github.com/ZsgsDesign/NOJ",
+    "repository" => "https://github.com/$NOJRepo",
     "downloadURL" => null,
-    "version" => "0.16.0",
+    "version" => $NOJLatestVersion,
     "website" => "https://acm.njupt.edu.cn/",
     "require" => [
-        "NOJ" => "0.16.0"
+        "NOJ" => $NOJLatestVersion
     ],
     "official" => true,
     "icon" => "resources/noj.png",
-    "maintainers" => [
-        "ZsgsDesign",
-        "X3ZvaWQ",
-        "pikanglong",
-        "DavidDiao",
-        "ChenKS12138",
-        "Rp12138",
-        "goufaan",
-        "Brethland",
-        "scrutinizer-auto-fixer",
-        "fossabot",
-        "YoujieZhang",
-        "crazyasme",
-        "SinonJZH"
-    ]
+    "maintainers" => $NOJMaintainers
 ]];
 
 foreach ($babelExtensions as $repo) {
@@ -57,24 +59,24 @@ foreach ($babelExtensions as $repo) {
     if (isset($versionInfos["url"])) {
         $versionInfos = json_decode(getGitHubTags($versionInfos["url"]), true);
     }
-    $downloadURL=[];
-    $latestVersion=null;
+    $downloadURL = [];
+    $latestVersion = null;
     foreach ($versionInfos as $versionInfo) {
         $version = $versionInfo["name"];
         echo "Processing: $repo @ $version" . PHP_EOL;
         $remoteBabelInfo = json_decode(getRemoteBabelConfig($repo, $version), true);
         if (empty($remoteBabelInfo)) {
-            echo("Failure: Babel Config Not Found, Skipping $repo @ $version") . PHP_EOL;
+            echo ("Failure: Babel Config Not Found, Skipping $repo @ $version") . PHP_EOL;
         }
         if ($remoteBabelInfo["version"] != $version) {
-            echo("Version Mismatch, Skipping $repo @ $version") . PHP_EOL;
+            echo ("Version Mismatch, Skipping $repo @ $version") . PHP_EOL;
         }
         $downloadURL[] = [
             "version" => $version,
             "url" => "https://github.com/$repo/archive/$version.zip"
         ];
         if (is_null($latestVersion)) {
-            $latestVersion=[
+            $latestVersion = [
                 "name" => $remoteBabelInfo['name'],
                 "code" => $remoteBabelInfo['code'],
                 "type" => $remoteBabelInfo['type'],
@@ -85,17 +87,17 @@ foreach ($babelExtensions as $repo) {
             ];
             if (isset($remoteBabelInfo['require'])) {
                 if (isset($remoteBabelInfo['require']['NOJ'])) {
-                    $latestVersion['require']['NOJ']=$remoteBabelInfo['require']['NOJ'];
+                    $latestVersion['require']['NOJ'] = $remoteBabelInfo['require']['NOJ'];
                 }
                 if (isset($remoteBabelInfo['require']['tlsv1.3'])) {
-                    $latestVersion['require']['tlsv1.3']=$remoteBabelInfo['require']['tlsv1.3'];
+                    $latestVersion['require']['tlsv1.3'] = $remoteBabelInfo['require']['tlsv1.3'];
                 }
             } else {
-                $latestVersion['require']=null;
+                $latestVersion['require'] = null;
             }
             $contributorInfos = json_decode(getGitHubTags("https://api.github.com/repos/$repo/contributors"), true);
             foreach ($contributorInfos as $contributor) {
-                $latestVersion['maintainers'][]=$contributor['login'];
+                $latestVersion['maintainers'][] = $contributor['login'];
             }
         }
     }
@@ -112,7 +114,7 @@ foreach ($babelExtensions as $repo) {
         "website" => $latestVersion["website"],
         "require" => $latestVersion['require'],
         "official" => true,
-        "icon" => "resources/".$latestVersion["code"].".png",
+        "icon" => "resources/" . $latestVersion["code"] . ".png",
         "maintainers" => $latestVersion['maintainers']
     ];
 }
@@ -152,15 +154,17 @@ function getGitHubTags($repo)
     return $result;
 }
 
-function getRemoteBabelConfig($repo, $version){
+function getRemoteBabelConfig($repo, $version)
+{
     return _getRemoteBabelConfig($repo, $version);
 }
 
-function _getRemoteBabelConfig($repo, $version, $tries=5){
-    if(!$tries) return false;
+function _getRemoteBabelConfig($repo, $version, $tries = 5)
+{
+    if (!$tries) return false;
     $ret = @file_get_contents("https://ghproxy.com/https://raw.githubusercontent.com/$repo/$version/babel.json");
-    if($ret===false){
-        return _getRemoteBabelConfig($repo, $version, $tries-1);
+    if ($ret === false) {
+        return _getRemoteBabelConfig($repo, $version, $tries - 1);
     }
     return $ret;
 }
