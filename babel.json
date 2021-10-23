@@ -4,8 +4,8 @@
         "Read more about it at https:\/\/acm.njupt.edu.cn\/babel and https:\/\/njuptaaa.github.io\/babel",
         "This file is updated on a daily basis"
     ],
-    "updated-at": 1633148224,
-    "content-hash": "569d7dae07a0c83e578da05ca3b48500",
+    "updated-at": 1634969245,
+    "content-hash": "064ecd91aad7df101795f5011bb9eafa",
     "packages": [
         {
             "name": "NOJ",
@@ -176,6 +176,10 @@
             "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_POJ",
             "downloadURL": [
                 {
+                    "version": "0.2.0",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_POJ\/archive\/0.2.0.zip"
+                },
+                {
                     "version": "0.1.4",
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_POJ\/archive\/0.1.4.zip"
                 },
@@ -192,10 +196,10 @@
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_POJ\/archive\/0.1.0.zip"
                 }
             ],
-            "version": "0.1.4",
+            "version": "0.2.0",
             "website": "http:\/\/poj.org\/",
             "require": {
-                "NOJ": "^0.3.0"
+                "NOJ": "^0.17.0"
             },
             "official": true,
             "icon": "resources\/poj.png",
