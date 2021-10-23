@@ -4,8 +4,8 @@
         "Read more about it at https:\/\/acm.njupt.edu.cn\/babel and https:\/\/njuptaaa.github.io\/babel",
         "This file is updated on a daily basis"
     ],
-    "updated-at": 1635025312,
-    "content-hash": "b8be3859a17ebd9927159dd4431f92ee",
+    "updated-at": 1635028693,
+    "content-hash": "383c45ead3c4b7dfc09446f5c170e963",
     "packages": [
         {
             "name": "NOJ",
@@ -230,6 +230,14 @@
             "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos",
             "downloadURL": [
                 {
+                    "version": "0.2.5",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos\/archive\/0.2.5.zip"
+                },
+                {
+                    "version": "0.2.4",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos\/archive\/0.2.4.zip"
+                },
+                {
                     "version": "0.2.3",
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos\/archive\/0.2.3.zip"
                 },
@@ -278,7 +286,7 @@
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos\/archive\/0.1.0.zip"
                 }
             ],
-            "version": "0.2.3",
+            "version": "0.2.5",
             "website": "https:\/\/vijos.org\/",
             "require": {
                 "NOJ": "^0.17.2"
@@ -526,6 +534,10 @@
             "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive",
             "downloadURL": [
                 {
+                    "version": "0.2.1",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive\/archive\/0.2.1.zip"
+                },
+                {
                     "version": "0.2.0",
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive\/archive\/0.2.0.zip"
                 },
@@ -550,7 +562,7 @@
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_UVaLive\/archive\/0.1.0.zip"
                 }
             ],
-            "version": "0.2.0",
+            "version": "0.2.1",
             "website": "https:\/\/icpcarchive.ecs.baylor.edu\/",
             "require": {
                 "NOJ": "^0.3.2"
