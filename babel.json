@@ -4,8 +4,8 @@
         "Read more about it at https:\/\/acm.njupt.edu.cn\/babel and https:\/\/njuptaaa.github.io\/babel",
         "This file is updated on a daily basis"
     ],
-    "updated-at": 1635021378,
-    "content-hash": "e9525f519f758138ade4ce93b1cbf51f",
+    "updated-at": 1635025312,
+    "content-hash": "b8be3859a17ebd9927159dd4431f92ee",
     "packages": [
         {
             "name": "NOJ",
@@ -230,6 +230,10 @@
             "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos",
             "downloadURL": [
                 {
+                    "version": "0.2.3",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos\/archive\/0.2.3.zip"
+                },
+                {
                     "version": "0.2.2",
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos\/archive\/0.2.2.zip"
                 },
@@ -274,7 +278,7 @@
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Vijos\/archive\/0.1.0.zip"
                 }
             ],
-            "version": "0.2.2",
+            "version": "0.2.3",
             "website": "https:\/\/vijos.org\/",
             "require": {
                 "NOJ": "^0.17.2"
