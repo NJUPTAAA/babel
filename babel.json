@@ -4,8 +4,8 @@
         "Read more about it at https:\/\/acm.njupt.edu.cn\/babel and https:\/\/njuptaaa.github.io\/babel",
         "This file is updated on a daily basis"
     ],
-    "updated-at": 1634969245,
-    "content-hash": "064ecd91aad7df101795f5011bb9eafa",
+    "updated-at": 1634984304,
+    "content-hash": "b39d8666bf747f3bef9c8633c1037ccc",
     "packages": [
         {
             "name": "NOJ",
@@ -42,10 +42,14 @@
             "name": "Codeforces",
             "code": "codeforces",
             "type": "virtual-judge",
-            "description": "Codeforces interface for NOJ",
+            "description": "Codeforces & Gym interface for NOJ",
             "license": "MIT",
             "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces",
             "downloadURL": [
+                {
+                    "version": "0.3.2",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.3.2.zip"
+                },
                 {
                     "version": "0.3.1",
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.3.1.zip"
@@ -123,10 +127,10 @@
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.0.zip"
                 }
             ],
-            "version": "0.3.1",
+            "version": "0.3.2",
             "website": "https:\/\/codeforces.com\/",
             "require": {
-                "NOJ": "^0.16.0"
+                "NOJ": "^0.17.2"
             },
             "official": true,
             "icon": "resources\/codeforces.png",
