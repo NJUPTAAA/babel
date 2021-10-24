@@ -4,8 +4,8 @@
         "Read more about it at https:\/\/acm.njupt.edu.cn\/babel and https:\/\/njuptaaa.github.io\/babel",
         "This file is updated on a daily basis"
     ],
-    "updated-at": 1635058871,
-    "content-hash": "6d2f989640b9946aa9793eb6a1f1005e",
+    "updated-at": 1635076789,
+    "content-hash": "b3b82f71e5608a4367255880c518cf6c",
     "packages": [
         {
             "name": "NOJ",
@@ -48,6 +48,10 @@
             "license": "MIT",
             "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces",
             "downloadURL": [
+                {
+                    "version": "0.4.3",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.4.3.zip"
+                },
                 {
                     "version": "0.4.2",
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.4.2.zip"
@@ -141,7 +145,7 @@
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces\/archive\/0.1.0.zip"
                 }
             ],
-            "version": "0.4.2",
+            "version": "0.4.3",
             "website": "https:\/\/codeforces.com\/",
             "require": {
                 "NOJ": "^0.17.2"
@@ -737,6 +741,10 @@
             "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces_Gym",
             "downloadURL": [
                 {
+                    "version": "0.1.5",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces_Gym\/archive\/0.1.5.zip"
+                },
+                {
                     "version": "0.1.4",
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces_Gym\/archive\/0.1.4.zip"
                 },
@@ -757,7 +765,7 @@
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces_Gym\/archive\/0.1.0.zip"
                 }
             ],
-            "version": "0.1.4",
+            "version": "0.1.5",
             "website": "https:\/\/codeforces.com\/gyms",
             "require": {
                 "NOJ": "^0.17.2"
