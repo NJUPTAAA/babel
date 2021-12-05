@@ -4,8 +4,8 @@
         "Read more about it at https:\/\/acm.njupt.edu.cn\/babel and https:\/\/njuptaaa.github.io\/babel",
         "This file is updated on a daily basis"
     ],
-    "updated-at": 1635662714,
-    "content-hash": "d961fe0ffd9feb1c1db6ab2c6a0288ba",
+    "updated-at": 1638701701,
+    "content-hash": "27a9740cf9e5c0542e92df1e8b9b2293",
     "packages": [
         {
             "name": "NOJ",
@@ -15,10 +15,10 @@
             "license": "MIT",
             "repository": "https:\/\/github.com\/ZsgsDesign\/NOJ",
             "downloadURL": null,
-            "version": "0.17.3",
+            "version": "0.17.4",
             "website": "https:\/\/acm.njupt.edu.cn\/",
             "require": {
-                "NOJ": "0.17.3"
+                "NOJ": "0.17.4"
             },
             "official": true,
             "icon": "resources\/noj.png",
@@ -741,6 +741,10 @@
             "repository": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces_Gym",
             "downloadURL": [
                 {
+                    "version": "0.1.6",
+                    "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces_Gym\/archive\/0.1.6.zip"
+                },
+                {
                     "version": "0.1.5",
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces_Gym\/archive\/0.1.5.zip"
                 },
@@ -765,7 +769,7 @@
                     "url": "https:\/\/github.com\/NJUPTAAA\/NOJ_Extension_Codeforces_Gym\/archive\/0.1.0.zip"
                 }
             ],
-            "version": "0.1.5",
+            "version": "0.1.6",
             "website": "https:\/\/codeforces.com\/gyms",
             "require": {
                 "NOJ": "^0.17.2"
